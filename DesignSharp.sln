@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignSharpConsole", "DesignSharpConsole\DesignSharpConsole.csproj", "{F6107DBB-F348-4352-BB9C-E563C60C78A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{537F2173-8084-4390-B467-5604DECBD913}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6107DBB-F348-4352-BB9C-E563C60C78A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6107DBB-F348-4352-BB9C-E563C60C78A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6107DBB-F348-4352-BB9C-E563C60C78A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6107DBB-F348-4352-BB9C-E563C60C78A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537F2173-8084-4390-B467-5604DECBD913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537F2173-8084-4390-B467-5604DECBD913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537F2173-8084-4390-B467-5604DECBD913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537F2173-8084-4390-B467-5604DECBD913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2685D3E-EDFE-4191-ACD3-F98B1339E355}
+	EndGlobalSection
+EndGlobal
