@@ -1,4 +1,5 @@
 ﻿using ObserverPattern.SimpleObservableExample;
+using ObserverPattern.WeatherStationExample;
 
 namespace DesignSharpConsole
 {
@@ -6,13 +7,15 @@ namespace DesignSharpConsole
     {
         static void Main(string[] args)
         {
-            var sub = new Subject();
-            var obs = new Observer();
-            sub.RegisterObserver(obs);
-        
-            sub.SetState(false);
-            sub.RemoveObserver(obs);
-            sub.RemoveObserver(obs);
+            WeatherData weatherData = new WeatherData();
+            CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
+            StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
+            ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
+            HeatIndexDisplay heatIndexDisplay = new HeatIndexDisplay(weatherData);
+
+            weatherData.SetMeasurements(80, 65, 30.4f);
+            weatherData.SetMeasurements(82, 70, 29.2f);
+            weatherData.SetMeasurements(78, 90, 29.2f);
         }
     }
 }
